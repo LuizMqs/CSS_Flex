@@ -1,0 +1,118 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(36, 31, 31);
+    flex-direction: column;
+    gap: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.icone {
+    height: 15vw;
+    width: 40vw;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(39, 151, 151);
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icone img {
+    height: 5vw;
+    width: 5vw;
+}
+
+article {
+    height: 15vw;
+    width: 40vw;
+    border-width: 3px;
+    border-radius: 10px;
+    border-color: rgb(39, 151, 151);
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.alinhar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 12vw;
+    width: 100%;
+} 
+
+article:first-of-type .alinhar {
+    flex-direction: row;
+} 
+
+article:last-of-type .alinhar {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+} 
+
+.vertical_esquerda {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 12vw;
+    width: 100%;
+}
+
+.horizontal_cima {
+    display: flex;
+    height: 12vw;
+    width: 100%;
+}
+
+header {
+    height: 2vw;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    height: 2vw;
+    margin: 0;
+    color: rgb(132, 32, 225);
+}
+
+
+.square1 {
+    height: 2vw;
+    width: 2vw;
+    background-color: brown;
+}
+
+.square2 {
+    height: 2vw;
+    width: 2vw;
+    background-color: purple;
+}
+
+.square3 {
+    height: 2vw;
+    width: 2vw;
+    background-color: cyan;
+}
+
+.square4 {
+    height: 2vw;
+    width: 2vw;
+    background-color: darkblue;
+}
+
+.square5 {
+    height: 2vw;
+    width: 2vw;
+    background-color: red;
+}
